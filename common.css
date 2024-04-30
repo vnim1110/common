@@ -1,0 +1,11 @@
+/*결재함 개선사항 2019-06-19*/
+.pop_toast {position:fixed;top:50%;left:282px;margin:-100px 0 0 0;z-index:1;}/* [수정]2022-06-17 */
+.pop_toast .pop_toast_in {width:340px;height:240px;/*background: url(../img/comm/etc/bg_pop_toast.png) no-repeat 0 0;*/}/* [수정]2022-06-17 */
+.pop_toast .pop_toast_in .bg {position:absolute;top:0;left:0;display:block;width:100%;height:100%;font-size:0;line-height:0;background-color:#000;opacity:0.5;filter:alpha(opacity=50);zoom: 1;}/* [수정]2022-06-17 */
+.pop_toast .pop_toast_in p {position:absolute;top:0;left:0;width:100%;padding:145px 0 45px;font-size:20px;background-image:url(../img/comm/etc/ic_pop_toast_p.png);background-repeat:no-repeat;background-position:center 50px;line-height:50px;font-weight:bold;color:#fff;z-index:2;text-align:center;}/* [수정]2022-06-17 */
+
+/* 2022-11-25 화면 중앙 정렬, SaaS Toast 형태와 동일 설정 */
+.center_toast {position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1;}
+.center_toast .center_toast_in {width:400px;height:49px;background: url(../img/comm/etc/bg_pop_toast.png) no-repeat 0 0;}
+.center_toast .center_toast_in .bg {position:absolute;top:0;left:0;display:block;width:100%;height:100%;font-size:0;line-height:0;zoom: 1;}
+.center_toast .center_toast_in p {position:absolute;top:0;left:0;width:100%;height:100%;font-size:17px;line-height:50px;font-weight:bold;color:#fff;z-index:2;text-align:center;}
